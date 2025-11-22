@@ -19,11 +19,11 @@ app = FastAPI(
 )
 
 # CORS: pon aquí tu URL de GitHub Pages
-FRONTEND_ORIGIN = "https://tu-usuario.github.io/tu-repo"  # <-- CAMBIA ESTO
+FRONTEND_ORIGIN = "https://maguinda.github.io/reviews-frontend"  # <-- CAMBIA ESTO
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_ORIGIN, "http://localhost:5173", "http://127.0.0.1:5500"],
+    allow_origins=[FRONTEND_ORIGIN, "https://maguinda.github.io","http://localhost:5173", "http://127.0.0.1:5500"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

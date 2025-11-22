@@ -1,3 +1,7 @@
+postgresql://reviews_db_xwba_user:Lct6E6fun09mhucNGX8y4uA5rVWlNPGW@dpg-d4genhbe5dus73biq3q0-a.oregon-postgres.render.com/reviews_db_xwba
+
+render psql dpg-d4genhbe5dus73biq3q0-a
+
 1.9. Dockerfile para Render
 FROM python:3.11-slim
 
